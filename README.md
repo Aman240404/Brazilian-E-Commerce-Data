@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<p align="center">
-  <a href="#">
-    <img src="https://badges.pufler.dev/visits/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Visits Badge">
-    <img src="https://badges.pufler.dev/updated/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Updated Badge">
-    <img src="https://badges.pufler.dev/created/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Created Badge">
-    <img src="https://img.shields.io/github/contributors/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Contributors Badge">
-    <img src="https://img.shields.io/github/last-commit/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Last Commit Badge">
-    <img src="https://img.shields.io/github/commit-activity/m/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Commit Activity Badge">
-    <img src="https://img.shields.io/github/repo-size/stefansphtr/Data-Analytics-Brazilian-Ecommerce" alt="Repo Size Badge">
-    <img src="https://img.shields.io/badge/contributions-welcome-orange.svg" alt="Contributions welcome">
-    <img src="https://www.codefactor.io/repository/github/stefansphtr/data-analytics-brazilian-ecommerce/badge" alt="CodeFactor" />
-  </a>
-</p>
-
-# <img src="./src/Logo-Dicoding-Academy.gif" width="50"> Project Data Analytics: Brazilian E-Commerce Public Dataset by Olist <img src="./src/Logo-Dicoding-Academy.gif" width="50">
 
 ## 📚 Table of Contents
 
