@@ -23,7 +23,7 @@ Follow these steps to get the project up and running on your local machine:
    Clone the repository using git:
 
    ```bash
-   git clone https://github.com/stefansphtr/Data-Analytics-Brazilian-Ecommerce/tree/data-visualization.git
+   https://github.com/Aman240404/Brazilian-E-Commerce-Data.git
    ```
 
 2. **Set up a virtual environment** (Optional)
@@ -103,37 +103,27 @@ Follow these steps to get the project up and running on your local machine:
     
     - Product Category sales performance
     - Daily sales performance
+    - Key Performance Indicators (KPIs): Display total sales, average rating, and average sales per order.
 
-## 🗂️ Entity Relationship Diagram
+          Visualizations:
+          
+          Sales by Product Line: Horizontal bar chart showcasing sales distribution across product categories.
+          
+          Daily Sales: Bar chart illustrating sales trends over days.
+          
+          Predictive Analytics:
+          
+          Predict total order price based on input features like freight value and price.
+          
+          Estimate delivery time using a Random Forest Regressor.
+          
+          Classify review scores using a Random Forest Classifier.
+          
+          Monthly Sales Forecasting: Utilize an LSTM model to forecast sales for the upcoming month.
+          
+          Data Export: Download prediction results in CSV or Excel formats.
 
-![ERD](https://i.imgur.com/HRhd2Y0.png)
-
-The Entity Relationship Diagram (ERD) provides a comprehensive graphical view of the logical structure of our database. It helps to understand how different tables are related to each other in the database.
-
-The ERD for this project is defined in the [db_schema.vuerd.json](ERD/db_schema.vuerd.json) file and can be viewed using tools that support the Vuerd format.
-
-The diagram includes the following tables:
-
-- `customers_dataset`: This dataset has information about the customer and its location. Use it to identify unique customers in the orders dataset and to find the orders delivery location.
-  
-- `geolocation_dataset`: This dataset has information Brazilian zip codes and its lat/lng coordinates.
-  
-- `orders_dataset`: This is the core dataset of the project.
-  
-- `order_items_dataset`: This dataset includes data about the items purchased within each order.
-  
-- `order_payments_dataset`: This dataset includes data about the orders payment options.
-  
-- `order_reviews_dataset`: This dataset includes data about the reviews made by the customers.
-  
-- `products_dataset`: This dataset includes data about the products sold by Olist.
-  
-- `product_category_name_translation`: This dataset translates the product_category_name to english.
-  
-- `sellers_dataset`: This dataset includes data about the sellers that fulfilled orders made at Olist.
-
-Each table is linked to one or more other tables through foreign keys, representing the relationships between different entities in the e-commerce business model.
-
+Dark Mode UI: Enhanced user interface with a dark theme for better readability
 ## 📈 Dashboard Explanation
 
 Follow these steps to run the dashboard on your local machine:
@@ -152,17 +142,33 @@ Follow these steps to run the dashboard on your local machine:
 
 2. **Use the dashboard**
 
-The dashboard provides a visual representation of sales performance data. Here's how to use it:
+   The dashboard provides a visual representation of sales performance data. Here's how to use it:Filter the data
 
-- **Filter the data**
+    Use the filters in the sidebar to select the city, customer segmentation, and date range you're interested in. The dashboard will update automatically to reflect your selections.
+    
+    View key performance indicators
+    
+    At the top of the dashboard, you'll see key performance indicators (KPIs) such as total sales, average rating, and average sales per order.
 
-   Use the filters in the sidebar to select the city, customer segmentation, and date range you're interested in. The dashboard will update automatically to reflect your selections.
 
-- **View key performance indicators**
+The dashboard includes two charts: Sales by Product Line and Sales by Day. These charts provide a visual representation of the sales data based on your filter selections.Predictive Analytics:
 
-   At the top of the dashboard, you'll see key performance indicators (KPIs) such as total sales, average rating, and average sales per order.
+          Predict total order price based on input features like freight value and price.
+
+          Estimate delivery time using a Random Forest Regressor.
+
+          Classify review scores using a Random Forest Classifier.
+
 
 - **Explore the charts**
+- 
+![Screenshot 2025-05-03 193220](https://github.com/user-attachments/assets/580840a4-9978-4040-ab9d-c92a15913e90)
+
+![Screenshot 2025-05-03 193231](https://github.com/user-attachments/assets/fc7aeb5a-708e-4deb-909f-c5c65e746ce1)
+
+
+![Screenshot 2025-05-03 193244](https://github.com/user-attachments/assets/1e6c9d83-0b06-42bf-887e-49d8851df713)
+
 
    The dashboard includes two charts: Sales by Product Line and Sales by Day. These charts provide a visual representation of the sales data based on your filter selections.
 
@@ -172,7 +178,3 @@ print("Thank you for reading! 🙏")
 
 **Thank you for reading! 🙏**
 
-<div align='center'><img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000"></div>
-=======
-# Brazilian-E-Commerce-Data
->>>>>>> 4e23f0d2ff2e657a07b762fd60e6512fa2c84ce8
